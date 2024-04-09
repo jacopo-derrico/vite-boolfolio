@@ -9,7 +9,7 @@ export default {
 
 <template>
     <div class="col-4">
-        <div class="card text-start p-3">
+        <div class="card text-start p-3 mb-3 ">
           <figure v-show="propElement.img">
             <img
               class="card-img-top"
@@ -43,26 +43,4 @@ export default {
 
 <style scoped>
 
-h1 {
-  color: $font-color-second;
-  @include main-font-start;
-}
-
-li {
-  list-style-type: disc;
-}
-
-.project-container {
-  height: 450px;
-
-  .project-card {
-    height: 100%;
-    overflow: auto;
-  }
-}
-
-ol,
-ul {
-  padding-left: 1rem;
-}
 </style>
