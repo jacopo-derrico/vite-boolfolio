@@ -28,10 +28,7 @@ export default{
 </script>
 
 <template>
-  <main>
-    <h1>Projects</h1>
-
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <ProjectCard
             v-for="(proj, index) in projectArray"
@@ -40,7 +37,6 @@ export default{
           />
       </div>
     </div>
-  </main>
 </template>
 
 <style scoped>
